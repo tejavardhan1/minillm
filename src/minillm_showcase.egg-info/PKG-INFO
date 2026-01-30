@@ -1,0 +1,104 @@
+Metadata-Version: 2.4
+Name: minillm-showcase
+Version: 0.1.0
+Summary: A tiny GPT-style LLM from scratch (PyTorch), for showcasing.
+Author: Your Name
+License:  MIT License
+         
+         Copyright (c) 2026
+         
+         Permission is hereby granted, free of charge, to any person obtaining a copy
+         of this software and associated documentation files (the "Software"), to deal
+         in the Software without restriction, including without limitation the rights
+         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+         copies of the Software, and to permit persons to whom the Software is
+         furnished to do so, subject to the following conditions:
+         
+         The above copyright notice and this permission notice shall be included in all
+         copies or substantial portions of the Software.
+         
+         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+         AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+         SOFTWARE.
+        
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch>=2.2.0
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: tqdm>=4.66.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: ruff>=0.5.0; extra == "dev"
+Dynamic: license-file
+
+ ## MiniLLM Showcase (Python)
+ 
+ A **tiny GPT-style Transformer (“LLM”) built from scratch** in PyTorch:
+ - Tokenizer (byte-level)
+ - Causal self-attention blocks
+ - Training loop (next-token prediction)
+ - Text generation (temperature / top-k)
+ 
+ This is perfect for GitHub because it shows you understand the core mechanics.
+ 
+### Install essentials
+
+**1. Python 3.10+**  
+Check: `python3 --version`
+
+**2. Create and activate a virtual environment**
+
+```bash
+cd /Users/tejavardhanreddygondi/Cursorai
+python3 -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+```
+
+**3. Install the project (PyTorch + deps)**
+
+```bash
+pip install --upgrade pip
+pip install -e ".[dev]"
+```
+
+Or install from `requirements.txt` then the package in editable mode:
+
+```bash
+pip install -r requirements.txt
+pip install -e .
+```
+
+**4. Verify PyTorch**
+
+```bash
+python3 -c "import torch; print('PyTorch', torch.__version__)"
+```
+
+**If pip fails with SSL errors (macOS)**  
+Run the certificate installer that came with Python:
+
+```bash
+open "/Applications/Python 3.14/Install Certificates.command"
+```
+
+Then retry step 3.
+
+### Quickstart (after install)
+
+```bash
+# Train on the tiny included dataset
+python3 scripts/train.py --steps 500 --device cpu
+
+# Generate text (after training)
+python3 scripts/generate.py --prompt "Once upon a time" --tokens 120
+```
+ 
+ ### What to say in interviews
+ - Implemented **causal masking**, **multi-head attention**, **residual connections**, **layer norm**, and **positional embeddings**
+ - Trained with **cross-entropy** next-token loss
+ - Built an end-to-end pipeline: data → tokens → model → training → sampling

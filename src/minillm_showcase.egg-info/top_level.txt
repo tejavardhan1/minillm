@@ -1,0 +1,4 @@
+docchat_lite
+minillm
+reposense
+topiclens

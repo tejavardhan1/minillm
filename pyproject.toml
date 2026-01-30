@@ -1,0 +1,30 @@
+ [build-system]
+ requires = ["setuptools", "wheel"]
+ build-backend = "setuptools.build_meta"
+ 
+ [project]
+ name = "minillm-showcase"
+ version = "0.1.0"
+ description = "A tiny GPT-style LLM from scratch (PyTorch), for showcasing."
+ readme = "README.md"
+ requires-python = ">=3.10"
+ license = { file = "LICENSE" }
+ authors = [{ name = "Your Name" }]
+ dependencies = [
+   "torch>=2.2.0",
+   "numpy>=1.26.0",
+   "tqdm>=4.66.0",
+ ]
+ 
+ [project.optional-dependencies]
+ dev = ["pytest>=8.0.0", "ruff>=0.5.0"]
+ 
+ [tool.setuptools]
+ package-dir = {"" = "src"}
+ 
+ [tool.setuptools.packages.find]
+ where = ["src"]
+ 
+ [tool.pytest.ini_options]
+ testpaths = ["tests"]
+ addopts = "-q"

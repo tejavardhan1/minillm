@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/minillm/__init__.py
+src/minillm/data.py
+src/minillm/model.py
+src/minillm/tokenizer.py
+src/minillm_showcase.egg-info/PKG-INFO
+src/minillm_showcase.egg-info/SOURCES.txt
+src/minillm_showcase.egg-info/dependency_links.txt
+src/minillm_showcase.egg-info/requires.txt
+src/minillm_showcase.egg-info/top_level.txt

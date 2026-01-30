@@ -1,0 +1,10 @@
+ Once upon a time, there was a small language model.
+ It learned to predict the next token, one step at a time.
+ 
+ Build projects. Write code. Ship features.
+ Learn systems design. Practice interviews. Get the job.
+ 
+ The quick brown fox jumps over the lazy dog.
+ Transformers use attention to mix information across positions.
+ 
+ You can replace this file with any text dataset you like.
