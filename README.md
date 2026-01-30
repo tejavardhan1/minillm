@@ -5,8 +5,6 @@ The goal of this project is not to compete with large-scale commercial LLMs, but
 
 This project was built entirely from scratch as a learning initiative.
 
----
-
 ## Problem Statement
 
 Large Language Models (LLMs) such as GPT and LLaMA provide strong performance but require:
@@ -18,8 +16,6 @@ This makes them difficult to experiment with on personal or academic hardware.
 
 **MiniLLM** explores how a **smaller, simplified language model** can still perform meaningful NLP tasks while remaining lightweight and easy to understand.
 
----
-
 ## Project Objectives
 
 - Understand the internal structure of LLMs  
@@ -27,8 +23,6 @@ This makes them difficult to experiment with on personal or academic hardware.
 - Reduce model complexity while preserving functionality  
 - Enable experimentation on limited hardware  
 - Serve as a learning and research-oriented reference project  
-
----
 
 ## System Overview
 
@@ -42,16 +36,12 @@ The project follows a simplified LLM workflow:
 
 > Design decisions favor **clarity and simplicity** over large-scale optimization.
 
----
-
 ## Technologies Used
 
 - Python  
 - PyTorch  
 - Transformer-based architecture  
 - Basic NLP preprocessing techniques  
-
----
 
 ## Installation
 
