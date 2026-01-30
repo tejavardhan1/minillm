@@ -34,7 +34,7 @@ The project follows a simplified LLM workflow:
 4. Model inference and text generation  
 5. Output decoding  
 
-> Design decisions favor **clarity and simplicity** over large-scale optimization.
+ Design decisions favor **clarity and simplicity** over large-scale optimization.
 
 ## Technologies Used
 
