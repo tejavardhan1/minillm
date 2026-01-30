@@ -49,3 +49,17 @@ The project follows a simplified LLM workflow:
 git clone https://github.com/tejavardhan1/minillm.git
 cd minillm
 pip install -r requirements.txt
+```
+
+## Usage
+
+**Train** (saves to `checkpoints/minigpt.pt` by default):
+
+```bash
+python scripts/train.py --data data/tiny_corpus.txt
+```
+
+**Generate** (loads checkpoint and prints text):
+
+```bash
+python scripts/generate.py --ckpt checkpoints/minigpt.pt --prompt "Once upon a time"
