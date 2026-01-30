@@ -1,4 +1,4 @@
- ## MiniLLM Showcase (Python)
+## MiniLLM Showcase (Python)
  
  A **tiny GPT-style Transformer (“LLM”) built from scratch** in PyTorch:
  - Tokenizer (byte-level)
