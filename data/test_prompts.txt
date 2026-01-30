@@ -1,0 +1,22 @@
+# Daily-use test prompts for: python scripts/generate.py --prompt "PROMPT"
+# Copy any line below (without the #) as your --prompt value.
+
+Once upon a time
+Good morning
+Reminder:
+To do:
+Thanks for your message
+The meeting is at
+Hi, how are you?
+Please find the
+I will get back to you
+Buy milk
+Don't forget to
+Sure, that works
+Hello world
+Build projects
+The quick brown fox
+Debugging is
+Training takes time
+She opened the door
+In the beginning

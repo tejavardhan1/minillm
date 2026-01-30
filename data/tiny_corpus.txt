@@ -8,3 +8,42 @@
  Transformers use attention to mix information across positions.
  
  You can replace this file with any text dataset you like.
+
+ Neural networks learn patterns from data. More data often means better models.
+ Read the docs. Run the tests. Fix the bug. Deploy at five.
+ 
+ In the beginning was the word. Language shapes how we think.
+ Hello world is the first program many people write.
+ 
+ The model predicts the next token given the previous tokens.
+ Backpropagation updates the weights to minimize the loss.
+ 
+ Once you understand attention, transformers make more sense.
+ Keys and values and queries: that is the heart of it.
+ 
+ She opened the door and stepped into the garden. Flowers bloomed everywhere.
+ He wrote a function that took a list and returned the sum.
+ 
+ Debugging is twice as hard as writing the code. So write clear code.
+ Comments explain why, not what. Good names make code readable.
+ 
+ Training takes time. Validation tells you when to stop.
+ Save your checkpoints. You might need to resume later.
+
+ Good morning. Hope you have a great day.
+ Reminder: call back at three. Meeting at four.
+ To do: finish the report, send the email, review the doc.
+ 
+ Thanks for your message. I will get back to you soon.
+ Please find the attachment. Let me know if you have questions.
+ Can we schedule a quick call tomorrow?
+ 
+ The meeting is at ten. Bring your laptop. We will share the screen.
+ I am running late. Be there in fifteen minutes.
+ 
+ Buy milk. Pick up the package. Water the plants.
+ Don't forget to save. Backup your work before you leave.
+ 
+ Hi, how are you? I wanted to check in about the project.
+ Sure, that works for me. See you then.
+ No problem. Happy to help.
