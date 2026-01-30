@@ -1,8 +1,4 @@
-# MiniLLM: GPT from Scratch 🧠
-
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
+# MiniLLM: GPT from Scratch 
 
 ## Overview
 **MiniLLM** is a minimal, educational implementation of a Generative Pre-trained Transformer (GPT) model, built entirely from scratch using PyTorch. 
